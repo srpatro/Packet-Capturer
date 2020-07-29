@@ -1,0 +1,20 @@
+.sidebar-menu .treeview a i.fa-angle-right{
+	position: absolute;
+	right:0px;
+}
+canvas{
+
+  /*width:1000px !important;*/
+  /*height:600px !important;*/
+
+}
+
+.panel {
+  display: flex;
+
+  .chart-container {
+    position: relative;
+    flex-grow: 1;
+    min-height: 0;
+  }
+}
