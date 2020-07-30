@@ -1,4 +1,4 @@
-Currently Tested in UBUNTU.
+Tested in UBUNTU.
 
 Python3 needs to be installed in the system
 
