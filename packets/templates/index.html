@@ -36,7 +36,7 @@ var interval = 1000;  // 1000 = 1 second, 3000 = 3 seconds
 function updateData() {
 let ip = label[(Math.random() * label.length) | 0];
  $.ajax({
-    url: {% url 'packet' %},
+    url: {% url 'get_packet' %},
     type: 'GET',
     data: 'ip='+ip,
   }).done(function (resp) {
